@@ -3,7 +3,7 @@
     if((!isset($_SESSION['login'])==true) and (!isset($_SESSION['$senha'])==true)){
         unset($_SESSION['login']);
         unset($_SESSION['senha']);
-        header('Location: /Person Pulse/home.php');
+        header('Location: /Person-Pulse/home.php');
     }
 
     $logado =$_SESSION['login'];

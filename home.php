@@ -43,7 +43,7 @@
 <body>
     <div class="box">
         <h1>Login</h1>
-        <form action="/Person Pulse/model/testLogin.php" method="POST">
+        <form action="/Person-Pulse/model/testLogin.php" method="POST">
             <input type="text" name="login" placeholder="Login">
             <br><br>
             <input type="password" name="senha" placeholder="Senha">

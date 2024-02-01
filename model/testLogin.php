@@ -17,11 +17,11 @@
         if(mysqli_num_rows($result) < 1){
             unset($_SESSION['login']);
             unset($_SESSION['senha']);
-            header('Location: /Person Pulse/home.php');
+            header('Location: /Person-Pulse/home.php');
         }else{
             $_SESSION['login']= $login;
             $_SESSION['senha']= $senha;
-            header('Location: /Person Pulse/view/cadastro.php');
+            header('Location: /Person-Pulse/view/cadastro.php');
         }
 
     }else{
