@@ -3,7 +3,7 @@
     if((!isset($_SESSION['login'])==true) and (!isset($_SESSION['$senha'])==true)){
         unset($_SESSION['login']);
         unset($_SESSION['senha']);
-        header('Location: /Person-Pulse/home.php');
+        header('Location: /PersonPulse/home.php');
     }
 
     $logado =$_SESSION['login'];
@@ -66,8 +66,8 @@
         .btn{
             color: white;
             position: absolute;
-            top: 100%;
-            left: 50%;
+            top: 12%;
+            left: 90%;
             transform: translate(-50%, -50%)  ;
             background-color: rgba(0, 0, 0, 0.7);
             padding: 15px;
@@ -207,12 +207,10 @@
     </div>
     <br>
     <div class="btn">
-        <fieldset>
         <legend><b>Acesso</b></legend>
         <br>
         <input class="pesquisa" type="submit" name="pesquisa" id="pesquisa" value="Pesquisar">
         <input class="sair" type="submit" name="sair" id="sair" value="Sair">
-        </fieldset>
     </div>
 </body>
 </html>
